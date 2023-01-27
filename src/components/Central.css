@@ -1,0 +1,98 @@
+/*EFEITOS ESPECIAIS*/
+.container{
+    box-shadow: #000000 0px 3px 8px;
+    color: #FDFDFD;
+    border-radius: solid 1em;
+    padding: 2em;
+    background: linear-gradient(45DEG,#0A2647,#144272 ,#205295,#2C74B3);
+    box-sizing: 300% 300%;
+    animation: cores 15s ease infinite;
+    border-radius: 5px;
+}
+
+@keyframes cores{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+/*TRABALHANDO COM CLASS*/
+.fa-location-dot {
+    
+    color: #61876e;
+}
+.weather-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #fff;
+    padding-top: 1em;
+    margin-top: .9em;
+
+}
+
+/*TRABALHANDO COM ID*/
+/*ID CHAMADA*/
+#search{
+    margin-left: .2em;
+    width: 40px;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 7px;
+    background-color: #8dd0f5;
+}
+/*ID CHAMADA*/
+
+#city-input{
+    font-size: 1.2em;
+    border-radius: 7px;
+    margin-top:1em ;
+    border: solid;
+    border-style: none;
+    border: none;
+}
+
+
+#temperature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#country{
+    height: 15px;
+}
+
+#description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #93C6E7;
+}
+#wind{
+    margin-left: 0.6rem;
+    color: #aee2ff;
+}
+#details-container #umidity {
+    
+   
+    padding: 0.6rem;
+    border-right: 2px solid #fff;
+}
+
+#weather-data span{
+    margin: 0.6rem;
+}
