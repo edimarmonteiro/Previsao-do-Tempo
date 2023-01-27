@@ -42,7 +42,7 @@
 
 
 /////////////resolvendo buges com REF//////////////////////////
-
+/*Essa foi uma ideia do chartGET, mas eu  ainda não tetei*/
 /*import React, { useRef } from 'react';
 
 function MyComponent() {
